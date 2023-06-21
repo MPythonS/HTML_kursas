@@ -1,0 +1,36 @@
+<html>
+<html lang="lt">
+
+<meta charset="UTF-8">
+<title>Mokejimams</title>
+
+<body>
+<h1> Mokėjimo forma</h1>
+<h5> Privalomi laukai pažymėti - *</h5>
+<h3> Kontaktinė informacija</h3>
+<form action="http://localhost/kontaktai" method="POST">
+    <label for="fn">Vardas:*</label>
+    <input name="firstname" type="text" id="fn" required/><br><br>
+    <label for="email">Elektroninis paštas:*</label>
+    <input name="email" type="email" id="email" required/><br><br>
+    <label for="psw">Slaptažodis:*</label>
+    <input name="password" type="password" id="psw" required/><br><br>
+    <h3> Mokėjimo informacija</h3>
+    <label for="fn">Kortelės tipas:</label>
+    <select>
+        <option>Visa</option>
+        <option>MasterCard</option>
+        <option>Maestro</option>
+    </select><br><br>
+
+
+    <label for="ccn">Kortelės numeris:*</label>
+    <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}"
+           autocomplete="cc-number" maxlength="19"
+           placeholder="xxxx xxxx xxxx xxxx"><br><br>
+    <label for="exp">Galioja iki:*</label>
+    <input type="date" id="exp" name="Galiojimo data"
+           placeholder="YYYY-MM-DD"
+           min="2023-06-21">
+</body>
+</html>
