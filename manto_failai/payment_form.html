@@ -9,8 +9,8 @@
 <h5> Privalomi laukai pažymėti - *</h5>
 <h3> Kontaktinė informacija</h3>
 <form action="http://localhost/kontaktai" method="POST">
-    <label for="fn">Vardas:*</label>
-    <input name="firstname" type="text" id="fn" required/><br><br>
+    <label for="fn"> Vardas:*</label>
+    <input name="firstname" type="text" id="fn"  required minlength="2"/><br><br>
     <label for="email">Elektroninis paštas:*</label>
     <input name="email" type="email" id="email" required/><br><br>
     <label for="psw">Slaptažodis:*</label>
@@ -26,11 +26,12 @@
 
     <label for="ccn">Kortelės numeris:*</label>
     <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}"
-           autocomplete="cc-number" maxlength="19"
+           autocomplete="cc-number" maxlength="19" required
            placeholder="xxxx xxxx xxxx xxxx"><br><br>
     <label for="exp">Galioja iki:*</label>
     <input type="date" id="exp" name="Galiojimo data"
-           placeholder="YYYY-MM-DD"
+           placeholder="YYYY-MM-DD" required
            min="2023-06-21">
+    <p><a href="Agreement.html">Sutartys</a></p>
 </body>
 </html>
