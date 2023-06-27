@@ -1,27 +1,29 @@
 <html>
 <head>
-    <img src="kiti_failai/images/logo.jpg" width="200">
     <title>ERP_contacts</title>
     <meta charset="utf-8">
     <!-- <meta charset="utf-8"> teksto atpažinimo formatas   -->
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/layout.css">
 </head>
 <body>
 <header>
-    <h2>
+    <h1>
         Mus rasite
-    </h2>
+    </h1>
     <nav>
         <a href="index.html">Home</a>
-        <p><a href="client.html">Klientai</a></p>
-        <p><a href="Object.html">Objektai</a></p>
-        <p><a href="Data.html">Duomenų lentelė</a></p>
-        <p><a href="Offer.html">Pasiūlymai</a></p>
-        <p><a href="Agreement.html">Sutartys</a></p>
-
+        <a href="client.html">Klientai</a>
+        <a href="Object.html">Objektai</a>
+        <a href="Data.html">Duomenų lentelė</a>
+        <a href="Offer.html">Pasiūlymai</a>
+        <a href="Agreement.html">Sutartys</a>
     </nav>
 </header>
+<main>
 
-        <img src="kiti_failai/images/adresas.png" width="50%"><br><br>
+        <img src="kiti_failai/images/adresas.png" width="70%">
 <form  action="http://localhost/kontaktai" method="POST" >
         <label for="fn">Vardas</label><br><br>
         <input name="firstname" type="text" id="fn"/><br><br>
@@ -33,17 +35,14 @@ Tavo klausimas
 </textarea><br><br>
 <input value="Siųsti" type="submit" />
 </form>
-<p>Adresas:  Tilto g. 4-2, Vilnius</p>
-<p>Telefonas:  +370 700 60000</p>
-<p>Email: erp@erp.eu</p>
+    </main>
 
 <footer>
-    <p>
-        Visos paslaugos vienoje vietoje
-    </p>
-    <p>
-        <span> 2023 &copy Visos teisės saugomos</span>
-    </p>
+    <p>Adresas:  Tilto g. 4-2, Vilnius</p>
+    <p>Telefonas:  +370 700 60000</p>
+    <p>Email: erp@erp.eu</p>
+    <p>Visos paslaugos vienoje vietoje</p>
+    <p><span> 2023 &copy Visos teisės saugomos</span></p>
 </footer>
 
 </body>

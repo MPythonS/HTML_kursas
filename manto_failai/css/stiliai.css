@@ -1,0 +1,44 @@
+body {display: grid;
+    /*align-content: stretch;*/
+    }
+body > header {
+
+            padding: 10px;
+            border-style: solid;
+            border-color: grey;
+}
+body > header> nav {
+            float: right;
+            padding: 10px;
+            border-style: solid;
+            border-color: grey;
+}
+
+aside {
+
+        width: 21%;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px 10px 10px 0;
+        float: left;
+        border-style: solid;
+        border-color: grey;
+}
+body > div > main {
+            width: 73.29%;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid black;
+            float: left;
+}
+body > footer {padding: 10px;
+            border-style: solid;
+            border-color: grey;
+}
+header > h1 {
+  bottom: auto;
+  right: auto;
+  width: auto;
+  border: 3px solid #73AD21;
+}
+.center {text-align: center;}

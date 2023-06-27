@@ -1,0 +1,27 @@
+html {
+border: 10px dotted black;;
+}
+body {
+background-color: pink;
+}
+ a {
+ background-color: yellow;
+ }
+ aside  {
+ border: 10px dotted grey;
+ }
+ aside p {
+ border: 5px solid green;
+ }
+ aside img {
+ border: 5px dashed red;
+ }
+footer span {
+color:red;
+}
+h1  {
+color: #BADA55; text-transform: uppercase;
+}
+head > title {background-color: grey;
+
+}

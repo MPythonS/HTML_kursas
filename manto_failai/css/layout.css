@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: # CCFFCC;
+}
+body {
+    display: grid;
+    align-content: stretch;
+}
+
+main {
+    display: flex;
+
+}
+
+
+main > aside, main > section {
+    float: left;
+}
+body > header {
+    height: 75px;
+}
+body > header > * {
+    float: left;
+}
+body > header > nav  {
+   float: right;
+   border: none;
+}
+body > footer  {
+    float: left;
+    height: ;
+}
+a {
+    border: inset;
+    border-color: grey;
+}
