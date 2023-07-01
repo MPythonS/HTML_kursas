@@ -1,0 +1,44 @@
+/* nustatom bendro div bloko plot5,
+kad tilptu tik 5 divai "langeliai"*/
+
+.sachmatai {
+  width:550px;
+}
+.sachmatai > div {
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+    padding: 10px;
+    float: left;
+    border: 1px solid gray;
+    display:flex;
+    /* visus div elementus nuspalvinam grey*/
+    background-color: gray;
+}
+/* pasirenkam konkrecius div elementus*/
+.sachmatai > div:nth-child(2){
+  background-color: lightblue;
+}
+.sachmatai > div:nth-child(6){
+  background-color: lightblue;
+}
+.sachmatai > div:nth-child(10){
+  background-color: lightblue;
+}
+.sachmatai > div:nth-child(14){
+  background-color: lightblue;
+}
+
+/* arba krutesnis budas
+pasirenkam nuo 4 div elemento
+kas 4 elementa*/
+
+div > div:nth-child(4n+4){
+  background-color: lightgreen;
+}
+/* arba krutesnis budas
+pasirenkam nuo 16 div elemento
+kas 2 elementa*/
+.sachmatai > div:nth-child(2n+16){
+ background-color: pink;
+}

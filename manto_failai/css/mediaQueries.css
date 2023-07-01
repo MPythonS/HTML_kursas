@@ -1,0 +1,14 @@
+
+
+@media only screen and (max-width: 300px) {
+body {
+
+    grid-template-areas:
+        "h h"
+        "m m"
+        "f f";
+        }
+    body > div > aside {
+    display: none;
+    }
+        }

@@ -9,6 +9,7 @@ body > header {
 }
 body > header> nav {
             float: right;
+            margins: 10px;
             padding: 10px;
             border-style: solid;
             border-color: grey;

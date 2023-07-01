@@ -1,0 +1,44 @@
+.gallery {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-gap: 10px;
+grid-auto-rows: 150px;
+}
+
+.gallery > div {
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    float: left;
+    border: 1px solid gray;
+
+    /* visus div elementus nuspalvinam grey*/
+    background-color: gray;
+}
+/* pasirenkam konkrecius div elementus*/
+.gallery> div:nth-child(2){
+  background-color: lightblue;
+}
+.gallery > div:nth-child(6){
+  background-color: lightblue;
+}
+.gallery > div:nth-child(10){
+  background-color: lightblue;
+}
+.gallery > div:nth-child(14){
+  background-color: lightblue;
+}
+
+/* arba krutesnis budas
+pasirenkam nuo 4 div elemento
+kas 4 elementa*/
+
+.gallery > div:nth-child(4n+4){
+  background-color: lightgreen;
+}
+/* arba krutesnis budas
+pasirenkam nuo 16 div elemento
+kas 2 elementa*/
+.gallery > div:nth-child(2n+16){
+ background-color: pink;
+}

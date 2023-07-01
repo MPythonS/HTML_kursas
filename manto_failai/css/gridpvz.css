@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+        "h h"
+        "a m"
+        "f f";
+    grid-template-columns: 3fr 9fr;
+    grid-template-rows: auto 1fr;
+}
+
+body > footer {
+    grid-area: f;
+    border: 1px grey solid;
+}
+
+body > header {
+    grid-area: h;
+    text-align: center;
+    border: 1px grey solid;
+}
+
+body > aside {
+    grid-area: a;
+    border: 1px grey solid;
+}
+
+body > main {
+    grid-area: m;
+    border: 1px grey solid;
+}
