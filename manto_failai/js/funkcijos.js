@@ -110,3 +110,4 @@ console.log('Kursas yra numerio tipo.');
 } else {
 console.log('Kursas nėra numerio tipo.');
 };
+//11.
